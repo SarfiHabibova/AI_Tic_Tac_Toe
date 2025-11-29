@@ -1,10 +1,4 @@
-"""heuristic.py
 
-Heuristic evaluation for depth-limited search.
-
-- Symmetric: positive for X advantage, negative for O advantage.
-- Immediate wins/threats dominate via exponential weighting (10^n).
-"""
 from typing import Tuple
 from game import BoardMeta
 
