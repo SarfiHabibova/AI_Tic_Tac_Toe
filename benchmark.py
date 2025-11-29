@@ -1,7 +1,4 @@
-"""benchmark.py
-Small helper to measure node counts and time for minimax vs alpha-beta
-and with/without move ordering. Use to produce performance tables.
-"""
+
 import time
 from game import initial_state
 from search import minimax, minimax_ab, Instrument, search
