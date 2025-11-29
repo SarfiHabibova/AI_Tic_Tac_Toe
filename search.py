@@ -1,9 +1,4 @@
-"""search.py
 
-Implements minimax, minimax_ab, and depth-limited search with alpha-beta pruning.
-Includes optional move ordering and instrumentation for node counting.
-Deterministic tie-breaking: actions sorted lexicographically when equal.
-"""
 from typing import Tuple, Optional, List
 from game import BoardMeta, player, actions, result, terminal, utility
 from heuristic import evaluate
