@@ -1,7 +1,4 @@
-"""play.py
-Small CLI to play against the agent.
-Agent plays 'X' by default; human plays 'O'.
-"""
+
 from game import initial_state, player, actions, result, utility
 from search import minimax_ab, search
 from heuristic import evaluate
