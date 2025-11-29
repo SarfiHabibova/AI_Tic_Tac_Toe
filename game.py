@@ -1,17 +1,4 @@
-"""game.py
-Game engine for generalized Tic-Tac-Toe (m x m, k-in-a-row).
 
-Immutable board representation: tuple-of-tuples.
-
-Public API:
-- initial_state(m=3, k=3) -> BoardMeta
-- player(state) -> 'X'|'O'
-- actions(state) -> list of (r,c)
-- result(state, action) -> new state
-- winner(state) -> 'X'|'O'|None
-- terminal(state) -> bool
-- utility(state) -> +1|-1|0|None
-"""
 from typing import Optional, Tuple, List
 
 Cell = Optional[str]  # 'X', 'O', or None
